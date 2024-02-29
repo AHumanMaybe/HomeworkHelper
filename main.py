@@ -22,4 +22,4 @@ async def do(ctx, *msg):
     chat_log.append(response.choices[0].message)
     await ctx.send(response.choices[0].message.content)
 
-client.run("MTE4NzIxMjQ5NTcwMjczNjkyNg.GTWfYH.NcDUXZ2Gexk_kVRAjxr2g1PSH423POTXqgHh_E")
+client.run("SECRET")
